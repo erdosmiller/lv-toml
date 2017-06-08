@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-02 15:51:35" Modified_Date="2017-06-07 20:06:14" Creator="David Taylor" Comments="" ID="24019a2a5de924fb40114ce99dd9453b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-02 15:51:35" Modified_Date="2017-06-07 20:30:59" Creator="David Taylor" Comments="" ID="23ef2cdec66497ad2272d37a7188642a">
   <Library_General_Settings>
     <Package_File_Name>LV_TOML</Package_File_Name>
-    <Library_Version>0.0.0.2</Library_Version>
+    <Library_Version>0.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -294,7 +294,7 @@
         <Path>..\src\lib\LabVIEW to TOML.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43D6C02E9CA4091C0C3447B3F39A2FCF</GUID>
+      <GUID>43CAD83991668F751DA01DF26E104C87</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
