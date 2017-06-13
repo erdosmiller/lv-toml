@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Code Point to UTF-8.vi" Type="VI" URL="../Code Point to UTF-8.vi"/>
 		<Item Name="Format Basic String.vi" Type="VI" URL="../Format Basic String.vi"/>
 		<Item Name="Format Key.vi" Type="VI" URL="../Format Key.vi"/>
 		<Item Name="Match Regex.vi" Type="VI" URL="../Match Regex.vi"/>
@@ -29,6 +30,7 @@
 			<Item Name="State.ctl" Type="VI" URL="../State.ctl"/>
 			<Item Name="Table Array Context.ctl" Type="VI" URL="../Table Array Context.ctl"/>
 			<Item Name="Table Context.ctl" Type="VI" URL="../Table Context.ctl"/>
+			<Item Name="Value Type.ctl" Type="VI" URL="../Value Type.ctl"/>
 			<Item Name="Value.ctl" Type="VI" URL="../Value.ctl"/>
 		</Item>
 		<Item Name="TOML Key-Value Pair.ctl" Type="VI" URL="../TOML Key-Value Pair.ctl"/>
@@ -41,6 +43,8 @@
 	<Item Name="Read TOML File (TOML).vi" Type="VI" URL="../Read TOML File (TOML).vi"/>
 	<Item Name="Read TOML File.vi" Type="VI" URL="../Read TOML File.vi"/>
 	<Item Name="TOML to LabVIEW.vi" Type="VI" URL="../TOML to LabVIEW.vi"/>
+	<Item Name="Write Table Value.vi" Type="VI" URL="../Write Table Value.vi"/>
+	<Item Name="Write Table.vi" Type="VI" URL="../Write Table.vi"/>
 	<Item Name="Write TOML File (LV).vi" Type="VI" URL="../Write TOML File (LV).vi"/>
 	<Item Name="Write TOML File (TOML).vi" Type="VI" URL="../Write TOML File (TOML).vi"/>
 	<Item Name="Write TOML File.vi" Type="VI" URL="../Write TOML File.vi"/>
