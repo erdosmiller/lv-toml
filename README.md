@@ -23,6 +23,9 @@ Dependencies
 ------------
 
 OpenG Toolkit
+
 MGI Tools
+
 [LV-JSON](https://github.com/erdosmiller/lv-json) (only for needed for running tests)
+
 Requires LabVIEW 2015 or later
