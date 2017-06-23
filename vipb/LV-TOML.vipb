@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-02 15:51:35" Modified_Date="2017-06-13 10:44:09" Creator="David Taylor" Comments="" ID="19f76e64d15f0aabaccb0fc1198785b6">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-02 15:51:35" Modified_Date="2017-06-21 13:12:51" Creator="David Taylor" Comments="" ID="9f076cc8f564eb5049ac65789b49eb1b">
   <Library_General_Settings>
     <Package_File_Name>LV_TOML</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.2.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -193,7 +193,7 @@
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name>TOML</Name>
+      <Name/>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>3</Height_Row>
@@ -297,12 +297,26 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Top Level Value.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\lib\Write Top Level Value.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Write TOML File.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\lib\Write TOML File.vi</Path>
@@ -311,18 +325,18 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Table.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Write Top Level Values.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\lib\Write Table.vi</Path>
+        <Path>..\src\lib\Write Top Level Values.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4A8A0E317E620487A1DD7B7BFE565C2</GUID>
+      <GUID>7081383607810F8CBEABFEA72D0009A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -371,7 +385,7 @@
         <Path>..\src\lib\TOML Key-Value Pair.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCAA87A1E06918F01AF14C3C8C05242A</GUID>
+      <GUID>0F445EFEBD6A1C90461BB638E6275CCB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

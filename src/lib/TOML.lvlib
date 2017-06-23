@@ -43,9 +43,9 @@
 	<Item Name="Read TOML File (TOML).vi" Type="VI" URL="../Read TOML File (TOML).vi"/>
 	<Item Name="Read TOML File.vi" Type="VI" URL="../Read TOML File.vi"/>
 	<Item Name="TOML to LabVIEW.vi" Type="VI" URL="../TOML to LabVIEW.vi"/>
-	<Item Name="Write Table Value.vi" Type="VI" URL="../Write Table Value.vi"/>
-	<Item Name="Write Table.vi" Type="VI" URL="../Write Table.vi"/>
 	<Item Name="Write TOML File (LV).vi" Type="VI" URL="../Write TOML File (LV).vi"/>
 	<Item Name="Write TOML File (TOML).vi" Type="VI" URL="../Write TOML File (TOML).vi"/>
 	<Item Name="Write TOML File.vi" Type="VI" URL="../Write TOML File.vi"/>
+	<Item Name="Write Top Level Value.vi" Type="VI" URL="../Write Top Level Value.vi"/>
+	<Item Name="Write Top Level Values.vi" Type="VI" URL="../Write Top Level Values.vi"/>
 </Library>
