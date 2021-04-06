@@ -108,7 +108,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{E526DB6C-F4F8-4D2D-A5CE-B82A00E8199B}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">60</Property>
+				<Property Name="Bld_version.build" Type="Int">67</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">decoder.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/decoder/decoder.exe</Property>
@@ -118,14 +118,25 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/decoder/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7EA2B822-2A66-4D33-BCF2-5DC30324251D}</Property>
+				<Property Name="Destination[2].destName" Type="Str">app</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/decoder</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FAF89CC3-1A7E-4BC6-8A2F-128501AA7E6A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/tests/decoder.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/tests/input_encode.txt</Property>
+				<Property Name="Source[2].newName" Type="Str">input.txt</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/tests/input_decode.txt</Property>
+				<Property Name="Source[3].newName" Type="Str">input.txt</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Zaphiro Technologies SA</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">decoder</Property>
@@ -134,6 +145,7 @@
 				<Property Name="TgtF_productName" Type="Str">decoder</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F89D6609-091F-4C40-B1B4-768A47282789}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">decoder.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="encoder" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -152,7 +164,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{56F94607-40CA-437D-B1F9-24B2C2C94B9C}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">62</Property>
+				<Property Name="Bld_version.build" Type="Int">69</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">encoder.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/encoder/encoder.exe</Property>
@@ -162,8 +174,12 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/encoder/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7EA2B822-2A66-4D33-BCF2-5DC30324251D}</Property>
+				<Property Name="Destination[2].destName" Type="Str">app</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/encoder</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FAF89CC3-1A7E-4BC6-8A2F-128501AA7E6A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/tests/decoder.vi</Property>
@@ -172,7 +188,13 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/tests/encoder.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/tests/input_decode.txt</Property>
+				<Property Name="Source[3].newName" Type="Str">input.txt</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/tests/input_encode.txt</Property>
+				<Property Name="Source[4].newName" Type="Str">input.txt</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Zaphiro Technologies SA</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">decoder</Property>
@@ -181,6 +203,7 @@
 				<Property Name="TgtF_productName" Type="Str">decoder</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{399EF509-A352-4B00-B5E3-CBD675E3161C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">encoder.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
