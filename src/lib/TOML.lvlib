@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Add clue to error cluster.vi" Type="VI" URL="../Add clue to error cluster.vi"/>
 		<Item Name="Code Point to UTF-8.vi" Type="VI" URL="../Code Point to UTF-8.vi"/>
 		<Item Name="Format Basic String.vi" Type="VI" URL="../Format Basic String.vi"/>
 		<Item Name="Format Key.vi" Type="VI" URL="../Format Key.vi"/>
