@@ -5,6 +5,12 @@ LV-TOML is an open source LabVIEW library for parsing and composing [TOML v0.4.0
 
 LV-TOML is tested against the TOML test suite [toml-test](https://github.com/BurntSushi/toml-test).
 
+About this fork
+------------
+
+The original developer is not maintaining this project, so this fork was created to update to a newer version of LabVIEW and add some features.
+A discussion was created on LAVA forum to discuss this : https://lavag.org/topic/21972-anyone-using-toml-files/
+
 Installation
 ------------
 
@@ -28,4 +34,4 @@ MGI Tools
 
 [LV-JSON](https://github.com/erdosmiller/lv-json) (only for needed for running tests)
 
-Requires LabVIEW 2015 or later
+Requires LabVIEW 2017 or later
