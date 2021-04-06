@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="TOML library" displayname="TOML library">
+</nifamily>
+</nicomment>
+<nierror code="543001">
+Value parse error
+</nierror>
+<nierror code="543002">
+Array elements must all have same type
+</nierror>
+<nierror code="543003">
+Unsupported type
+</nierror>
+<nierror code="543004">
+Value already exist
+</nierror>
+<nierror code="543005">
+Parse Error
+</nierror>
+<nierror code="543006">
+Array type mismatch
+</nierror>
+<nierror code="543007">
+Empty table name
+</nierror>
+<nierror code="543008">
+Duplicate table names
+</nierror>
+<nierror code="543009">
+Type mismatch
+</nierror>
+<nierror code="543010">
+Key already defined
+</nierror>
+<nierror code="543011">
+Unexpected array in key
+</nierror>
+<nierror code="543012">
+Parse basic string ""
+</nierror>
+<nierror code="543013">
+Parse basic string \\
+</nierror>
+<nierror code="543014">
+Table name parse error
+</nierror>
+<nierror code="543015">
+Parse multiuline basic string \\
+</nierror>
+<nierror code="543016">
+Parse multiuline basic string ""
+</nierror>
+<nierror code="543017">
+Parse table string ""
+</nierror>
+<nierror code="543018">
+Parse inline table string ""
+</nierror>
+</nidocument>
