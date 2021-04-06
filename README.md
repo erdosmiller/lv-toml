@@ -35,3 +35,10 @@ MGI Tools
 [LV-JSON](https://github.com/erdosmiller/lv-json) (only for needed for running tests)
 
 Requires LabVIEW 2017 or later
+
+
+Note
+------------
+
+If you use Notepad++, here is a syntax file to make NPP support TOML
+https://github.com/Theodor-Lindberg/NPP-TOML-Syntax
