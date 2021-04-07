@@ -14,11 +14,11 @@ A discussion was created on LAVA forum to discuss this : https://lavag.org/topic
 Installation
 ------------
 
-[The most recent VI Package (.vip) can be downloaded here.](https://github.com/erdosmiller/lv-toml/releases)
+[The most recent VI Package (.vip) can be downloaded here.](https://github.com/AntoineChalons/lv-toml/releases)
 
 Open the VI Package using [VI Package Manager](http://vipm.jki.net/) and press ***Install***.
 
-In LabVIEW, The LV-TOML palette can be found in the ***Erdos Miller*** palette.
+In LabVIEW, The LV-TOML palette can be found in the ***Zaphiro Technologies*** palette.
 
 Usage
 -----
@@ -28,14 +28,14 @@ The polymorphic VIs ***Read TOML File.vi*** and ***Write TOML File.vi*** can par
 Dependencies
 ------------
 
-OpenG Toolkit
-
-MGI Tools
+OpenG Toolkits
+- OpenG Error Library
+- OpenG Variant Data Library
+- JDP Science Common Utilities
 
 [LV-JSON](https://github.com/erdosmiller/lv-json) (only for needed for running tests)
 
 Requires LabVIEW 2017 or later
-
 
 Note
 ------------
