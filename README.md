@@ -15,6 +15,7 @@ Installation
 ------------
 
 [The most recent VI Package (.vip) can be downloaded here.](https://github.com/AntoineChalons/lv-toml/releases)
+[It is also available directly from VIPM](https://www.vipm.io/package/lv_toml/)
 
 Open the VI Package using [VI Package Manager](http://vipm.jki.net/) and press ***Install***.
 
