@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-04-06 17:40:28" Modified_Date="2021-04-07 09:00:09" Creator="team" Comments="" ID="22d9fd493717f54f20f013818c16614a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-04-06 17:40:28" Modified_Date="2021-04-08 17:10:45" Creator="team" Comments="" ID="0997695f941ed03db4c7100ebad74b86">
   <Library_General_Settings>
     <Package_File_Name>LV_TOML</Package_File_Name>
-    <Library_Version>2.0.0.11</Library_Version>
+    <Library_Version>2.0.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -39,11 +39,8 @@
       <Copyright/>
       <Packager>Antoine Chalons</Packager>
       <URL>https://github.com/AntoineChalons/lv-toml</URL>
-      <Release_Notes>Added since 1.2 :
-- switch to LV2017 (was 2015)
-- support for path
-- improved error reporting (range 543xxx)
-- fix GitHub issue #2</Release_Notes>
+      <Release_Notes>- fix bug : removed unwanted "write to file" in the read TOML file (LV) (GitHub issue #4)
+- add feature : vim to read from TOML file (GitHub issue #6)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -366,7 +363,21 @@
         <Path>..\src\lib\Write Top Level Values.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A26013C07EE153171165D52C0BB750C8</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read from TOML File.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\lib\Read from TOML File.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>C53C65F41AF0FD852B2BCB695393AEEF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
