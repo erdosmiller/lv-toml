@@ -40,6 +40,7 @@
 	<Item Name="Compose TOML String.vi" Type="VI" URL="../Compose TOML String.vi"/>
 	<Item Name="LabVIEW to TOML.vi" Type="VI" URL="../LabVIEW to TOML.vi"/>
 	<Item Name="Parse TOML String.vi" Type="VI" URL="../Parse TOML String.vi"/>
+	<Item Name="Read from TOML File.vim" Type="VI" URL="../Read from TOML File.vim"/>
 	<Item Name="Read TOML File (LV).vi" Type="VI" URL="../Read TOML File (LV).vi"/>
 	<Item Name="Read TOML File (TOML).vi" Type="VI" URL="../Read TOML File (TOML).vi"/>
 	<Item Name="Read TOML File.vi" Type="VI" URL="../Read TOML File.vi"/>
