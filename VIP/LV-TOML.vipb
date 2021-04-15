@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-04-06 17:40:28" Modified_Date="2021-04-15 09:13:05" Creator="team" Comments="" ID="f5d515523bc9337b0279b5243cbd1e5c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-04-06 17:40:28" Modified_Date="2021-04-15 21:59:25" Creator="team" Comments="" ID="84a46d53188abd650c4fb05f036fac63">
   <Library_General_Settings>
     <Package_File_Name>LV_TOML</Package_File_Name>
-    <Library_Version>2.0.2.15</Library_Version>
+    <Library_Version>2.1.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,6 +41,7 @@
       <URL>https://github.com/AntoineChalons/lv-toml</URL>
       <Release_Notes>new since 2.0.1 :
 - add feature : new option (disabled by default) to report an error if an element is not found in TOML data (GitHub issue #13)
+- add feature : return list of missing elements (GitHub issue #15)
 - improve error reporting</Release_Notes>
     </Description>
     <Destinations>
@@ -255,7 +256,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read TOML File.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Read from TOML File.vim</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -263,7 +264,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\lib\Read TOML File.vi</Path>
+        <Path>..\src\lib\Read from TOML File.vim</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -273,25 +274,11 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>1</Column>
+          <Row>1</Row>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\lib\Write TOML File.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Top Level Value.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\lib\Write Top Level Value.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -301,39 +288,11 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>3</Column>
+          <Row>2</Row>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\lib\LabVIEW to TOML.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TOML to LabVIEW.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\lib\TOML to LabVIEW.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Compose TOML String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\lib\Compose TOML String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -343,11 +302,25 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>4</Column>
+          <Row>3</Row>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\lib\Parse TOML String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Top Level Value.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\lib\Write Top Level Value.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -357,8 +330,8 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
-          <Column>2</Column>
+          <Row>2</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\lib\Write Top Level Values.vi</Path>
@@ -367,18 +340,32 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read from TOML File.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Compose TOML String.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
+          <Row>3</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\lib\Read from TOML File.vim</Path>
+        <Path>..\src\lib\Compose TOML String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25F6F9DF8DBC517D4513EFB85108DC9C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>TOML to LabVIEW.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\lib\TOML to LabVIEW.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>3107289EAE1EF6B0A36CDBFEB696AFBE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
