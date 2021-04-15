@@ -13,6 +13,8 @@
 		<Item Name="Code Point to UTF-8.vi" Type="VI" URL="../Code Point to UTF-8.vi"/>
 		<Item Name="Format Basic String.vi" Type="VI" URL="../Format Basic String.vi"/>
 		<Item Name="Format Key.vi" Type="VI" URL="../Format Key.vi"/>
+		<Item Name="LL_BuildElementPath_String.vi" Type="VI" URL="../LL_BuildElementPath_String.vi"/>
+		<Item Name="LL_BuildElementPath_StringArray.vi" Type="VI" URL="../LL_BuildElementPath_StringArray.vi"/>
 		<Item Name="Match Regex.vi" Type="VI" URL="../Match Regex.vi"/>
 		<Item Name="Parse Basic String.vi" Type="VI" URL="../Parse Basic String.vi"/>
 		<Item Name="Parse Multiline Basic String.vi" Type="VI" URL="../Parse Multiline Basic String.vi"/>
@@ -45,6 +47,7 @@
 	<Item Name="Read TOML File (TOML).vi" Type="VI" URL="../Read TOML File (TOML).vi"/>
 	<Item Name="Read TOML File.vi" Type="VI" URL="../Read TOML File.vi"/>
 	<Item Name="TOML to LabVIEW.vi" Type="VI" URL="../TOML to LabVIEW.vi"/>
+	<Item Name="TOML to LabVIEW.vim" Type="VI" URL="../TOML to LabVIEW.vim"/>
 	<Item Name="Write TOML File (LV).vi" Type="VI" URL="../Write TOML File (LV).vi"/>
 	<Item Name="Write TOML File (TOML).vi" Type="VI" URL="../Write TOML File (TOML).vi"/>
 	<Item Name="Write TOML File.vi" Type="VI" URL="../Write TOML File.vi"/>
