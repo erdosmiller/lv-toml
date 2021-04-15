@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-04-06 17:40:28" Modified_Date="2021-04-15 21:59:25" Creator="team" Comments="" ID="84a46d53188abd650c4fb05f036fac63">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-04-06 17:40:28" Modified_Date="2021-04-15 22:09:34" Creator="team" Comments="" ID="6b647118e6c0bf30ce9d0d7b748873f5">
   <Library_General_Settings>
     <Package_File_Name>LV_TOML</Package_File_Name>
-    <Library_Version>2.1.0.15</Library_Version>
+    <Library_Version>2.1.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
