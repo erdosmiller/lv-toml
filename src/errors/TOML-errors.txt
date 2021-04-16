@@ -63,7 +63,7 @@ Parse inline table string ""
 Element from LV data type passed in not found in TOML data (maybe a typo?)
 </nierror>
 <nierror code="543020">
-reserved for LV-TOML library
+Array with more than 2 dimensions are not supported
 </nierror>
 <nierror code="543021">
 reserved for LV-TOML library
