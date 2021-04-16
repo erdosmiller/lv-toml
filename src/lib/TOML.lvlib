@@ -39,11 +39,6 @@
 		<Item Name="TOML Key-Value Pair.ctl" Type="VI" URL="../TOML Key-Value Pair.ctl"/>
 		<Item Name="TOML Value.ctl" Type="VI" URL="../TOML Value.ctl"/>
 	</Item>
-	<Item Name="Variant Attributes" Type="Folder">
-		<Item Name="VarAttr_add child.vi" Type="VI" URL="../VarAttr/VarAttr_add child.vi"/>
-		<Item Name="VarAttr_LabVIEW to TOML_rec.vi" Type="VI" URL="../VarAttr/VarAttr_LabVIEW to TOML_rec.vi"/>
-		<Item Name="VarAttr_LV to TOML_TopLevel.vi" Type="VI" URL="../VarAttr/VarAttr_LV to TOML_TopLevel.vi"/>
-	</Item>
 	<Item Name="Compose TOML String.vi" Type="VI" URL="../Compose TOML String.vi"/>
 	<Item Name="LabVIEW to TOML.vi" Type="VI" URL="../LabVIEW to TOML.vi"/>
 	<Item Name="Parse TOML String.vi" Type="VI" URL="../Parse TOML String.vi"/>
